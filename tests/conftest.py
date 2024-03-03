@@ -22,7 +22,7 @@ def driver():
     driver = webdriver.Chrome(options=chrome_options)
     driver.maximize_window()
     yield driver
-    # driver.quit()
+    driver.quit()
 
 
 @pytest.fixture(autouse=True)
