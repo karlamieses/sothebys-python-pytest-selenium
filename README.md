@@ -27,7 +27,8 @@ This test will validate the error message when attempting to signup with invalid
 
 👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽
 
-https://www.loom.com/share/8138f24ddc024e5d94817b87b961ee62
+[(Loom-Video: Automation with Python, Selenium, and Pytest)](https://www.loom.com/share/8138f24ddc024e5d94817b87b961ee62)
+
 ### 💨 What is out of the scopre of the tests?
 - API testing
 - CI/CD
