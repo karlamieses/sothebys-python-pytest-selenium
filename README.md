@@ -30,6 +30,7 @@ This test will validate the error message when attempting to signup with invalid
 [Screen Recording 2024-03-03 at 23.20.05.mov](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F4k%2F80jzh6pd7zq1b44my74bwlsc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_LHUMeN%2FScreen%20Recording%202024-03-03%20at%2023.20.05.mov)
 
 ### 💨 What is out of the scopre of the tests?
+- API testing
 - CI/CD
 - Reporting
 - More tests (this is just a proof of concept)

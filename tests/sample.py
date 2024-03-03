@@ -1,6 +1,6 @@
 
+"""This is just a file to use when developing"""
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from utils.locators import MainPageLocator
 from pages.landing_page import LandingPage
