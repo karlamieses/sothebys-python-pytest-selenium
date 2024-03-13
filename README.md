@@ -3,10 +3,11 @@ This repository contains automation testing utilizing Python, Pytest and POM.
 
 
 ### 👩🏽‍💻 Pre-requisites:
-- Install Python
-- Install Pycharm
-- Install Pytest
-- Install Selenium
+- [Install Python](https://www.python.org/ )
+- [Install Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/?section=mac)
+- Install Pytest by running `pip install pytest`
+  - You need to have installed `pip` or `pip3`, `pip3` is installed automatically if you're using Python3 
+- Install Selenium by running this command `pip3 install selenium`
 
 ### How to run the tests?
 - If you're using Pycharm, the test can run from the Play button
@@ -24,10 +25,6 @@ into the logged in account.
 
 Test No.2: `test_sign_up_page.py`
 This test will validate the error message when attempting to signup with invalid email address
-
-👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽
-
-[(Loom-Video: Automation with Python, Selenium, and Pytest)](https://www.loom.com/share/8138f24ddc024e5d94817b87b961ee62)
 
 ### 💨 What is out of the scopre of the tests?
 - API testing
