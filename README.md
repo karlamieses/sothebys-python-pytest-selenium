@@ -16,6 +16,18 @@ This repository contains automation testing utilizing Python, Pytest and POM.
     - **Note**: This is a sample test, if you run from the terminal the test `test_sign_up_page` will fail due to the 
     - user will be logged into the app from the test `test_log_in_page`, this will be improved.
 
+### Run Test in Parallel
+- Installed the following pytest library to run in parallel: `pip3 install pytest-xdist`
+- Installed the following library to generate an HTML report: `pip3 install pytest-html`
+
+- auto parallel:
+`pytest -n auto`
+specify the numbers of CPUs:
+`pytest -n NUM`
+generate a test report:
+`pytest --html=report.html`
+generate a test report and run in parallel:
+`pytest -n auto --html=report.html`
 
 ### 💨 See recording of the test running:
 
