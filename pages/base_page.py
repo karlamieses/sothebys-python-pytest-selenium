@@ -35,3 +35,9 @@ class BasePage:
     def wait_for_page_to_load(self, expected_url):
         return WebDriverWait(self.driver, 15).until(EC.url_matches(expected_url))
 
+    def retrieve_text(self, *locator):
+        get_text = self.find_element(*locator)
+        retrieved_text = get_text.text
+        return retrieved_text
+
+

@@ -26,3 +26,8 @@ class SignUpPageLocator:
 class LogOutLocator:
     LOGOUT_BUTTON = (By.CSS_SELECTOR, '[data-text-content="Log Out"]')
     PREFERRED_ACCESS = (By.CSS_SELECTOR, '[data-text-content="Preferred Access"]')
+
+
+class SearchLocator:
+    SEARCH_INPUT_FIELD = (By.CSS_SELECTOR, '[placeholder="Search Sotheby\'s"]')
+    NUMBER_OF_RESULTS = (By.CLASS_NAME, 'searchStats')

@@ -1,4 +1,3 @@
-import pytest
 from pages.landing_page import LandingPage
 from pages.login_page import LoginPage
 from pages.signup_page import SignupPage
